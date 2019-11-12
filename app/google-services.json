@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "80379898059",
+    "firebase_url": "https://latihanmasterandroidponcoe.firebaseio.com",
+    "project_id": "latihanmasterandroidponcoe",
+    "storage_bucket": "latihanmasterandroidponcoe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80379898059:android:b008e644aeae377bdd534e",
+        "android_client_info": {
+          "package_name": "id.poncoe.latihanmasterandroidponcoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80379898059-o9qqieoe77pselkc4k7f1decu97tlnqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.poncoe.latihanmasterandroidponcoe",
+            "certificate_hash": "ec4127d74af881a65cba3fc98a830d7aab747309"
+          }
+        },
+        {
+          "client_id": "80379898059-en40lg7315em6c04s3pfdeo6rqsiv1q0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1MUWXmiidTlRfXODszKDByZZ7GGcKwMQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80379898059-en40lg7315em6c04s3pfdeo6rqsiv1q0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
