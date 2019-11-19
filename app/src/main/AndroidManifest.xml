@@ -1,4 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="id.poncoe.latihanmasterandroidponcoe"
     android:installLocation="auto">
 
@@ -20,9 +21,10 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
 
-        <activity android:name=".Java.MainActivityJava">
+        <activity android:name=".java.MainActivityJava">
             <!-- <activity android:name=".Kotlin.MainActivityKt"> -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -31,49 +33,49 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Java.BarVolumeJava"
+            android:name=".java.BarVolumeJava"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".Java.belajarintent.BelajarPindahActivityJava"
+            android:name=".java.belajarintent.BelajarPindahActivityJava"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Java.belajarintent.IntentExplicitJava"
+            android:name=".java.belajarintent.IntentExplicitJava"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Java.belajarintent.PindahActivityJava"
+            android:name=".java.belajarintent.PindahActivityJava"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Java.ViewViewGroupJava"
+            android:name=".java.ViewViewGroupJava"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Java.recyclerview.MainRecyclerView"
+            android:name=".java.recyclerview.MainRecyclerView"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.BarVolumeKt"
+            android:name=".kotlin.BarVolumeKt"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.ViewViewGroupKt"
+            android:name=".kotlin.ViewViewGroupKt"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.belajarintent.BelajarPindahActivityKt"
+            android:name=".kotlin.belajarintent.BelajarPindahActivityKt"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.belajarintent.IntentExplicitKt"
+            android:name=".kotlin.belajarintent.IntentExplicitKt"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.belajarintent.PindahActivityKt"
+            android:name=".kotlin.belajarintent.PindahActivityKt"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.MainActivityKt"
+            android:name=".kotlin.MainActivityKt"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.recyclerview.MainRecyclerView"
+            android:name=".kotlin.recyclerview.MainRecyclerView"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Java.recyclerview.DetailM"
+            android:name=".java.recyclerview.DetailM"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".Kotlin.recyclerview.DetailM"
+            android:name=".kotlin.recyclerview.DetailM"
             android:screenOrientation="portrait" />
 
     </application>
