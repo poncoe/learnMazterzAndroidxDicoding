@@ -55,5 +55,183 @@
     <string name="intent">Intent</string>
     <string name="view_group">View Group</string>
     <string name="recyclerview">RecyclerView</string>
+    <string name="chose">Pilih Angka yang kamu suka</string>
+    <string name="_50">50</string>
+    <string name="_100">100</string>
+    <string name="_150">150</string>
+    <string name="_200">200</string>
+    <string name="btn_choose">pilih</string>
+    <string name="pindah_dengan_result">Pindah Dengan Result</string>
+
+    <!-- Fragment -->
+    <string name="this_category">Ini fragment Category</string>
+    <string name="category_lifestyle">Ke fragment Lifestyle</string>
+    <string name="category_name">Category Name</string>
+    <string name="category_description">Category Description</string>
+    <string name="to_profile">Ke Halaman Profile Activity</string>
+    <string name="show_dialog">Tampilkan sebuah dialog</string>
+    <string name="hello_home_fragment">Hello Ini Home Fragment</string>
+    <string name="to_category">Ke fragment Category</string>
+    <string name="close">Tutup</string>
+    <string name="fragment">Fragment</string>
+
+    <!-- Debugging -->
+    <string name="save">Simpan</string>
+    <string name="calculate_volume">Hitung Volume</string>
+    <string name="hitung_keliling">Hitung Keliling</string>
+    <string name="hitung_luas_area">Hitung Luas Area</string>
+    <string name="latihan_unit_testing_dan_mvc">Latihan Unit Testing dan MVC</string>
+
+    <!-- Tab Layout -->
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Profile</string>
+    <string name="content_tab_profile">Change your Profile here</string>
+
+    <!-- Background Thread -->
+    <string name="status">Status Aplikasi</string>
+    <string name="status_pre">Status : onPreExecute</string>
+    <string name="status_post">Status : onPostExecute</string>
+    <string name="desc">Description</string>
+    <string name="custom_view">Custom View</string>
+
+    <!-- My Services -->
+    <string name="start_service">Start Service</string>
+    <string name="start_intent_service">Start Intent Service</string>
+    <string name="start_bound_service">Start Bound Service</string>
+    <string name="stop_bound_service">Stop bound Service</string>
+    <string name="services">Services</string>
+
+    <!-- Broadcast Receiver -->
+    <string name="this_sms_receiver_app">Ini Aplikasi Sms Receiver</string>
+    <string name="download_file">Download a File</string>
+    <string name="coming_from">Coming From</string>
+    <string name="this_play">Oii, main kesini jadi ngga? sekarang yak.</string>
+    <string name="check_sms_permission">Check SMS Permission</string>
+    <string name="incoming_message">Incoming Message</string>
+    <string name="from">from</string>
+    <string name="background_thread">Background Thread</string>
+    <string name="broadcast_receiver">Broadcast Receiver</string>
+
+    <!-- Alarm Manager -->
+    <string name="one_time_alarm">One Time Alarm</string>
+    <string name="alarm_date">Tanggal Alarm</string>
+    <string name="set_one_time_alarm">Set One Time Alarm</string>
+    <string name="alarm_message">Pesan Alarm</string>
+    <string name="repeating_alarm">Repeating Alarm</string>
+    <string name="set_repeating_alarm">Set Repeating Alarm</string>
+    <string name="cancel_alarm">Batalkan Alarm</string>
+    <string name="alarm_time">Waktu Alarm</string>
+
+    <!-- Job Scheduler -->
+    <string name="start">Start</string>
+    <string name="cancel">Cancel</string>
+    <string name="description_weather">Click the start button to start the weather task or click the cancel button to cancel the weather task</string>
+
+    <!-- GCM Network Manager -->
+    <string name="enter_city_name">Enter city name</string>
+    <string name="run_one_time_task">Run One Time Task</string>
+    <string name="run_periodic_task">Run Periodic Task</string>
+    <string name="cancel_periodic_task">Cancel Periodic Task</string>
+    <string name="status_manager">Status :</string>
+
+    <!-- Loader -->
+    <string name="name">Nama</string>
+
+    <!-- Deep Navigation -->
+    <string name="title">Judul</string>
+    <string name="message">Message</string>
+    <string name="open_detail">Open Detail</string>
+    <string name="notification_title">Hi, how are you?</string>
+    <string name="notification_message">Do you have any plan this weekend? Let\'s hangout</string>
+    <string name="detail_title">Hola, Good News</string>
+    <string name="detail_message">Now you can learn android in Dicoding</string>
+
+    <!-- View Model -->
+    <string name="temperature">Temperatur</string>
+    <string name="insert_city">Masukkan id kota misal Jakarta = 1642911</string>
+    <string name="search">Cari</string>
+    <string name="id_jakarta_bandung_semarang">1642911,1650357,1627896</string>
+    <string name="alarm_manager">Alarm Manager</string>
+    <string name="deep_navigation">Deep Navigation</string>
+    <string name="gcm_network_manager">GCM Network Manager</string>
+    <string name="job_scheduler">Job Scheduler</string>
+    <string name="loader">Loader</string>
+    <string name="view_model">View Model</string>
+
+    <!-- SQlite -->
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+
+    <!-- SharedPreferences -->
+    <string name="nothing">Tidak Ada</string>
+    <string name="email">Email</string>
+    <string name="age">Age</string>
+    <string name="phone_number">PhoneNumber</string>
+    <string name="is_love">Suka Manchester United</string>
+    <string name="key_email">email</string>
+    <string name="key_age">age</string>
+    <string name="key_phone">phone</string>
+    <string name="key_love">love</string>
+    <string name="key_name">name</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="love_manchester_united">Suka manchester united?</string>
+    <string name="change">Ubah</string>
+    <string name="dummy_name">Narenda Wicaksono</string>
+    <string name="dummy_email">narenda@dicoding.com</string>
+    <string name="dummynumber">123456</string>
+    <string name="dummyage">30</string>
+    <string name="dummyislove">IsLoveMU</string>
+
+    <!-- Read & Write Files -->
+    <string name="file_new">File New</string>
+    <string name="file_open">File Open</string>
+    <string name="file_save">File Save</string>
+
+    <!-- Preload Data -->
+    <string name="nim">NIM</string>
+    <string name="loading">Loading!</string>
+    <string name="my_notes">My Notes</string>
+    <string name="my_shared_preferences">My Shared Preferences</string>
+    <string name="my_setting_preferences">My Setting Preferences</string>
+    <string name="read_and_write_file">Read and Write file</string>
+    <string name="my_preload_data">My Preload Data</string>
+    <string name="my_notes_consumer">My Notes Consumer</string>
+
+    <!-- Widget -->
+    <string name="empty_text">NO DATA</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="start_update">START UPDATE</string>
+    <string name="stop_update">STOP UPDATE</string>
+    <string name="random">Random: 100</string>
+    <string name="generate">Generate</string>
+
+    <!-- Sound -->
+    <string name="btn_text_play">Play</string>
+    <string name="text_soudpool">Test Soundpool</string>
+    <string name="text_mediaplayer">Test Mediaplayer</string>
+    <string name="btn_text_stop">Stop</string>
+
+    <!-- Notifikasi & FCM -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="subscribe_to_news">Subscribe to news</string>
+    <string name="log_token">Log token</string>
+    <string name="default_notification_channel_name">News</string>
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="hintSender">Masukkan nama sender</string>
+    <string name="hintMessage">Masukkan message</string>
+    <string name="sendNotif">Kirim</string>
+    <string name="content_title">Content title</string>
+    <string name="subtext">Sub text</string>
+    <string name="send_notif">Send Notif</string>
+    <string name="text_show_notif">Testing Notif With Reply</string>
+    <string name="notif_action_reply">Reply Notif</string>
+    <string name="notif_title">New Notification</string>
+    <string name="notif_content">Ada notif baru</string>
+    <string name="notif_title_sent">Reply Sent</string>
+    <string name="notif_content_sent">Message has been sent</string>
+    <string name="hint_reply">Masukkan reply</string>
 
 </resources>
