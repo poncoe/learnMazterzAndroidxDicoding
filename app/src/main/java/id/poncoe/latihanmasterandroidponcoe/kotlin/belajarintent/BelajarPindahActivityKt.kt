@@ -6,10 +6,16 @@ import android.os.Bundle
 import android.view.MenuItem
 import android.view.View
 import android.widget.Button
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import id.poncoe.latihanmasterandroidponcoe.R
+import kotlinx.android.synthetic.main.belajarintent_pindahactivity.*
+
 
 class BelajarPindahActivityKt : AppCompatActivity(), View.OnClickListener {
+
+    var tvResult: TextView? = null
+    private val REQUEST_CODE = 100
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,6 +33,10 @@ class BelajarPindahActivityKt : AppCompatActivity(), View.OnClickListener {
 
         val btnDialPhone: Button = findViewById(R.id.btn_dial_number)
         btnDialPhone.setOnClickListener(this)
+
+        val btnMoveForResult: Button = findViewById(R.id.btn_move_for_result)
+        btnMoveForResult.setOnClickListener(this)
+        tvResult = findViewById(R.id.tv_result)
     }
 
     override fun onClick(v: View) {
@@ -77,8 +87,24 @@ class BelajarPindahActivityKt : AppCompatActivity(), View.OnClickListener {
                 startActivity(dialPhoneIntent)
             }
 
+            R.id.btn_move_for_result -> {
+                val moveForResultIntent = Intent(this@BelajarPindahActivityKt, IntentWithResult::class.java)
+                startActivityForResult(moveForResultIntent, REQUEST_CODE)
+            }
+
         }
     }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == IntentWithResult.RESULT_CODE) {
+                val selectedValue = data?.getIntExtra(IntentWithResult.EXTRA_SELECTED_VALUE, 0)
+                tv_result.text = "Hasil : $selectedValue"
+            }
+        }
+    }
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
 
         if (item.itemId === android.R.id.home)
