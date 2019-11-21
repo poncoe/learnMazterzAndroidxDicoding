@@ -6,11 +6,15 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 import id.poncoe.latihanmasterandroidponcoe.R;
 
 public class BelajarPindahActivityJava extends AppCompatActivity implements View.OnClickListener {
+
+    TextView tvResult;
+    private int REQUEST_CODE = 100;
 
     @Override
     protected void onCreate (Bundle savedInstanceState){
@@ -29,6 +33,10 @@ public class BelajarPindahActivityJava extends AppCompatActivity implements View
 
         Button btnDialPhone = findViewById(R.id.btn_dial_number);
         btnDialPhone.setOnClickListener(this);
+
+        Button btnMoveForResult = findViewById(R.id.btn_move_for_result);
+        btnMoveForResult.setOnClickListener(this);
+        tvResult = findViewById(R.id.tv_result);
     }
 
     @Override
@@ -79,6 +87,22 @@ public class BelajarPindahActivityJava extends AppCompatActivity implements View
                 Intent dialPhoneIntent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:"+phoneNumber));
                 startActivity(dialPhoneIntent);
                 break;
+
+            case R.id.btn_move_for_result:
+                Intent moveForResultIntent = new Intent(BelajarPindahActivityJava.this, IntentWithResult.class);
+                startActivityForResult(moveForResultIntent, REQUEST_CODE);
+                break;
+        }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        if (requestCode == REQUEST_CODE) {
+            if (resultCode == IntentWithResult.RESULT_CODE) {
+                int selectedValue = data.getIntExtra(IntentWithResult.EXTRA_SELECTED_VALUE, 0);
+                tvResult.setText(String.format("Hasil : %s", selectedValue));
+            }
         }
     }
 
