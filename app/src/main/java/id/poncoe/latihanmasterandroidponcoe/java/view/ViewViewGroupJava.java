@@ -1,4 +1,4 @@
-package id.poncoe.latihanmasterandroidponcoe.java;
+package id.poncoe.latihanmasterandroidponcoe.java.view;
 
 import android.os.Bundle;
 import android.view.MenuItem;
