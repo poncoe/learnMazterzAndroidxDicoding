@@ -1,4 +1,4 @@
-package id.poncoe.latihanmasterandroidponcoe.kotlin
+package id.poncoe.latihanmasterandroidponcoe.kotlin.view
 
 import android.os.Bundle
 import android.view.MenuItem
